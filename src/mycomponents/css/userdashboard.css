@@ -1,0 +1,200 @@
+.user-dashboard-section {
+    width: 100vw;
+    height: 100vh;
+    background: #f5f7fa;
+    padding: 1rem;
+    font-family: "Segoe UI", sans-serif;
+    color: black;
+}
+
+.user-dashboard-container {
+    background: #fff;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.topbar-left {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.topbar-right {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.search-box,
+.notif-icon,
+.profile-icon {
+    cursor: pointer;
+}
+
+.content-wrapper {
+    margin-top: 1rem;
+}
+
+.resource-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eef2f5;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.resource-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.resource-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.resource-title-small {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.resource-title-large {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.topbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-new-request {
+    background-color: #1976d2;
+    color: #fff;
+}
+
+.btn-new-resource {
+    background-color: #43a047;
+    color: #fff;
+}
+
+.profile-scroll {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.profile-scroll img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0.8rem;
+}
+
+.requests-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.request-card {
+    background-color: #e3f2fd;
+    padding: 1rem;
+    border-radius: 10px;
+    width: calc(33.33% - 1rem);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-section {
+    overflow-x: auto;
+}
+
+.news-scroll {
+    display: flex;
+    gap: 1rem;
+}
+
+.news-card {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.news-info {
+    padding: 0.5rem 1rem;
+}
+
+.news-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.news-date {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.profiles-scroll {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    width: 200px;
+    background-color: #fff3e0;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.profile-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.profile-role {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.profile-date {
+    font-size: 0.85rem;
+    color: #999;
+}
